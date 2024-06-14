@@ -2,17 +2,13 @@ package org.example.qn1;
 
 public class Question1 {
     public static void main(String[] args){
-        System.out.println("Question: Briefly describe an immutable object & provide some examples.");
+        System.out.println("Question 1: Briefly describe an immutable object & provide some examples.");
 
-        /**
-         * Answer:
+         /**
+          *  Answer: Immutable object is an object that cant be modified after creation. Once the object is initiated, the fields in the object cant be changed.
+          *  There is no setter method for immutable objects.
 
-         Immutable object is an object that cant be modified after creation. Once the object is initiated, the fields in the object cant be changed
-         There is no setter method for immutable objects.
-
-
-        /**
-             Example 1: String Class
+          *  Example: String Class
              The String class is a well-known immutable class in Java.
              Once a String object is created, it cannot be changed.
              Any modification on a String result in the creation of a new String object.

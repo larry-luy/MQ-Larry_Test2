@@ -12,6 +12,7 @@ public class Question3 {
 
         //Set is a collection that does not allow duplicates
         //Only contains unique values and does not have order
+        System.out.println("Question 3: ");
 
         Set<String> set = new HashSet<>();
         set.add("apple");

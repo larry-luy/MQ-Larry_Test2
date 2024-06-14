@@ -9,6 +9,7 @@ public class Question4 {
     public static void main(String [] args){
         List<Integer> input = List.of(8, 8, 8, 5, 5, 3, 2, 7, 2, 7, 8, 4, 1, 6, 9);
         List<Integer> output = filterList(input);// Expected output [8, 6, 4, 2]
+        System.out.println("Question 4: ");
         System.out.println(output);
     }
 

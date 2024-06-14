@@ -1,0 +1,18 @@
+Question 2: What is the difference between checked and unchecked exception?
+
+Answer:
+
+    Checked Exceptions are the exceptions that runs on compile time and checks that you handle these exceptions.
+    Must be handled: Either with a try-catch block or by declaring them with the 'throws' keyword in the method fucntion.
+    Require to be explicitly managed in your code.
+
+    Example: IOException, SQLException
+
+
+    Unchecked exceptions occur during runtime and not checked at compile time.
+    Does not need to declare 'throws' keyword in the method fucntion or handle in try catch.
+    Unchecked exceptions don't require explicit management, but you can handle them if you want to.
+
+    Example of Unchecked Exceptions:  NullPointerException, ArrayIndexOutOfBoundsException
+
+
